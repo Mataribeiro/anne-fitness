@@ -1,0 +1,11 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\backend",
+    "\\backend\\instance",
+    "\\backend\\templates",
+    "\\backend\\__pycache__"
+  ],
+  "SelectedNode": "\\backend\\models.py",
+  "PreviewInSolutionExplorer": false
+}
