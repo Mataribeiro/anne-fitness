@@ -8,11 +8,9 @@
 <body class="bg-light">
     <div class="container py-5">
         <h2 class="mb-4 text-center">📊 Estoque de Produtos</h2>
-
         {% if mensagem %}
             <div class="alert alert-info text-center">{{ mensagem }}</div>
         {% endif %}
-
         <div class="table-responsive">
             <table class="table table-bordered table-hover align-middle">
                 <thead class="table-primary text-center">
@@ -71,9 +69,8 @@
                 </tfoot>
             </table>
         </div>
-
         <div class="text-center mt-4">
-            <a href="/" class="btn btn-outline-primary">Voltar ao Cadastro</a>
+            <a href="{{ url_for('index') }}" class="btn btn-outline-primary">Voltar à Página Inicial</a>
         </div>
     </div>
 </body>
